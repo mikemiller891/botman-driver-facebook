@@ -5,9 +5,9 @@ namespace Tests\Extensions;
 use BotMan\Drivers\Facebook\Extensions\ElementButton;
 use BotMan\Drivers\Facebook\Extensions\MediaAttachmentElement;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class MediaAttachmentElementTest extends PHPUnit_Framework_TestCase
+class MediaAttachmentElementTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

@@ -6,10 +6,10 @@ use BotMan\BotMan\Http\Curl;
 use BotMan\BotMan\Messages\Incoming\IncomingMessage;
 use BotMan\Drivers\Facebook\FacebookImageDriver;
 use Mockery as m;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 
-class FacebookImageDriverTest extends PHPUnit_Framework_TestCase
+class FacebookImageDriverTest extends TestCase
 {
     /**
      * Get correct Facebook request data for images.

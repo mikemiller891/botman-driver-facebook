@@ -4,9 +4,9 @@ namespace Tests\Extensions;
 
 use BotMan\Drivers\Facebook\Extensions\ReceiptAdjustment;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class ReceiptAdjustmentTest extends PHPUnit_Framework_TestCase
+class ReceiptAdjustmentTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

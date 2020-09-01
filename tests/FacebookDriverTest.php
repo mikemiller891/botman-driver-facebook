@@ -20,13 +20,13 @@ use BotMan\Drivers\Facebook\Exceptions\FacebookException;
 use BotMan\Drivers\Facebook\Extensions\QuickReplyButton;
 use BotMan\Drivers\Facebook\FacebookDriver;
 use Mockery as m;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class FacebookDriverTest extends PHPUnit_Framework_TestCase
+class FacebookDriverTest extends TestCase
 {
-    public function tearDown()
+    public function tearDown() : void
     {
         m::close();
     }

@@ -7,9 +7,9 @@ use BotMan\Drivers\Facebook\Extensions\Airline\AirlineExtendedFlightInfo;
 use BotMan\Drivers\Facebook\Extensions\Airline\AirlineFlightSchedule;
 use BotMan\Drivers\Facebook\Interfaces\Airline;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class AirlineExtendedFlightInfoTest extends PHPUnit_Framework_TestCase
+class AirlineExtendedFlightInfoTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

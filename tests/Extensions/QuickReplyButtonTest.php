@@ -4,9 +4,9 @@ namespace Tests\Extensions;
 
 use BotMan\Drivers\Facebook\Extensions\QuickReplyButton;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class QuickReplyButtonTest extends PHPUnit_Framework_TestCase
+class QuickReplyButtonTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

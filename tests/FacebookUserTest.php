@@ -3,9 +3,9 @@
 namespace Tests\Drivers;
 
 use BotMan\Drivers\Facebook\Extensions\User;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class FacebookUserTest extends PHPUnit_Framework_TestCase
+class FacebookUserTest extends TestCase
 {
     public function createTestUser()
     {

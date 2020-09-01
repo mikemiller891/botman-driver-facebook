@@ -6,9 +6,9 @@ use BotMan\Drivers\Facebook\Extensions\Element;
 use BotMan\Drivers\Facebook\Extensions\ElementButton;
 use BotMan\Drivers\Facebook\Extensions\ListTemplate;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class ListTemplateTest extends PHPUnit_Framework_TestCase
+class ListTemplateTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

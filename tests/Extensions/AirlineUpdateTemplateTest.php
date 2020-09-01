@@ -8,9 +8,9 @@ use BotMan\Drivers\Facebook\Extensions\Airline\AirlineFlightSchedule;
 use BotMan\Drivers\Facebook\Extensions\AirlineUpdateTemplate;
 use BotMan\Drivers\Facebook\Interfaces\Airline;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class AirlineUpdateTemplateTest extends PHPUnit_Framework_TestCase
+class AirlineUpdateTemplateTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

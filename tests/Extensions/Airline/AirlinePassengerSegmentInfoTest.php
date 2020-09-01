@@ -4,9 +4,9 @@ namespace Tests\Extensions\Airline;
 
 use BotMan\Drivers\Facebook\Extensions\Airline\AirlinePassengerSegmentInfo;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class AirlinePassengerSegmentInfoTest extends PHPUnit_Framework_TestCase
+class AirlinePassengerSegmentInfoTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

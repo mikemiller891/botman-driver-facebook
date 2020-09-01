@@ -17,15 +17,16 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "botman/botman": "~2.1|~3.0"
+        "php": "^7.4",
+        "botman/botman": "dev-laravel7"
     },
     "require-dev": {
-        "botman/studio-addons": "~1.0",
-        "phpunit/phpunit": "~5.0",
+        "botman/studio-addons": "dev-laravel7",
+        "phpunit/phpunit": "^8.5",
         "illuminate/contracts": "~5.5.0",
         "mockery/mockery": "dev-master",
-        "ext-curl": "*"
+        "ext-curl": "*",
+        "symfony/http-foundation": "^5.1"
     },
     "autoload": {
         "psr-4": {
@@ -50,5 +51,15 @@
                 "BotMan\\Drivers\\Facebook\\Providers\\FacebookServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikemiller891/botman-botman.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikemiller891/botman-studio-addons.git"
+        },
+    ]
 }

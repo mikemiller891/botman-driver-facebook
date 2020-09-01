@@ -5,9 +5,9 @@ namespace Tests\Extensions;
 use BotMan\Drivers\Facebook\Extensions\Element;
 use BotMan\Drivers\Facebook\Extensions\ElementButton;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class ElementTest extends PHPUnit_Framework_TestCase
+class ElementTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

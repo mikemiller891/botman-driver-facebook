@@ -8,9 +8,9 @@ use BotMan\Drivers\Facebook\Extensions\Airline\AirlineFlightInfo;
 use BotMan\Drivers\Facebook\Extensions\Airline\AirlineFlightSchedule;
 use BotMan\Drivers\Facebook\Extensions\AirlineBoardingPassTemplate;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class AirlineBoardingPassTemplateTest extends PHPUnit_Framework_TestCase
+class AirlineBoardingPassTemplateTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

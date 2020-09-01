@@ -6,10 +6,10 @@ use BotMan\BotMan\Http\Curl;
 use BotMan\BotMan\Messages\Incoming\IncomingMessage;
 use BotMan\Drivers\Facebook\FacebookFileDriver;
 use Mockery as m;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 
-class FacebookFileDriverTest extends PHPUnit_Framework_TestCase
+class FacebookFileDriverTest extends TestCase
 {
     /**
      * Get correct Facebook request data for audio.

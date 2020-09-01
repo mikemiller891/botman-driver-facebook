@@ -6,9 +6,9 @@ use BotMan\Drivers\Facebook\Extensions\Element;
 use BotMan\Drivers\Facebook\Extensions\ElementButton;
 use BotMan\Drivers\Facebook\Extensions\GenericTemplate;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class ElementButtonTest extends PHPUnit_Framework_TestCase
+class ElementButtonTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

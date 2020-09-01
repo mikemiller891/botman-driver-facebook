@@ -7,10 +7,10 @@ use BotMan\BotMan\Messages\Attachments\Location;
 use BotMan\BotMan\Messages\Incoming\IncomingMessage;
 use BotMan\Drivers\Facebook\FacebookLocationDriver;
 use Mockery as m;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 
-class FacebookLocationDriverTest extends PHPUnit_Framework_TestCase
+class FacebookLocationDriverTest extends TestCase
 {
     /**
      * Get correct Facebook request data for location.

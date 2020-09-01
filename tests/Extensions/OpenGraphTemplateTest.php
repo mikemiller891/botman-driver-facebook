@@ -5,9 +5,9 @@ namespace Tests\Extensions;
 use BotMan\Drivers\Facebook\Extensions\OpenGraphElement;
 use BotMan\Drivers\Facebook\Extensions\OpenGraphTemplate;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class OpenGraphTemplateTest extends PHPUnit_Framework_TestCase
+class OpenGraphTemplateTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()

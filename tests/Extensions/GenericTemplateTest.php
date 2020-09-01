@@ -5,9 +5,9 @@ namespace Tests\Extensions;
 use BotMan\Drivers\Facebook\Extensions\Element;
 use BotMan\Drivers\Facebook\Extensions\GenericTemplate;
 use Illuminate\Support\Arr;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class GenericTemplateTest extends PHPUnit_Framework_TestCase
+class GenericTemplateTest extends TestCase
 {
     /** @test */
     public function it_can_be_created()
